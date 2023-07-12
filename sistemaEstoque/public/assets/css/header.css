@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+}
+
+#header{
+    max-width: 1300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: #ccc;
+    font-size: 17px;
+}
+
+#headerLeft a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #ccc;
+}
+
+#headerLeft a:hover{
+    text-decoration: underline;
+}
+
+#headerRight{
+    display: flex;
+}
+
+#headerRight p{
+    padding: 0 5px;
+}
+
+#headerRight a{
+    text-decoration: none;
+    color: red;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#headerRight a:hover{
+    text-decoration: underline;
+}

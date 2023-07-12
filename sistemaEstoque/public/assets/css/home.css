@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eee;
+}
+
+
+#tabela{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#tabela table{
+    width: 100%;
+}
+
+table,th,td{
+    border: 1px solid #444;
+    border-collapse: collapse;
+    padding: 7px 4px;
+}
+
+table tr th{
+    background-color: #0b54e5;
+    color: black;
+}
+
+table tr:hover{
+    background-color: white;
+}
+
+#barraPesquisa{
+    padding-bottom: 30px;
+}
+
+#barraPesquisa form input[type="text"]{
+    width: 250px;
+    height: 35px;
+    outline: 0;
+    border: 1px solid #333;
+    padding-left: 10px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+#barraPesquisa form input[type="submit"]{
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    outline: 0;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 0;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+#barraPesquisa form input[type="submit"]:hover{
+    background-color: #ccc;
+}

@@ -1,0 +1,47 @@
+
+body{
+    background-color: #eee;
+}
+
+#tabela{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#tabela button{
+    margin-bottom: 30px;
+}
+
+#tabela table{
+    width: 100%;
+}
+
+table,th,td{
+    border: 1px solid #444;
+    border-collapse: collapse;
+    padding: 7px 4px;
+}
+
+table tr th{
+    background-color: #0b54e5;
+    color: black;
+}
+
+table tr:hover{
+    background-color: white;
+}
+
+#imprimir{
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #444;
+    background-color: white;
+    transition: 0.3s all ease-in-out;
+}
+
+#imprimir:hover{
+    background-color: #ccc;
+}
